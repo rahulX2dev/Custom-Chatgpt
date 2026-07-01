@@ -3,6 +3,10 @@
 .env.local
 .env.*.local
 
+# Notebooks
+Notebook/
+*.ipynb
+
 # Logs
 logs/
 *.log
@@ -15,7 +19,6 @@ __pycache__/
 *$py.class
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -23,3 +26,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
